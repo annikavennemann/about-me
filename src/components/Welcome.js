@@ -5,6 +5,7 @@ import { FaXing } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
 import { BsFillEnvelopeFill } from 'react-icons/bs'
 
+
 export default function Welcome() {
   return (
     <>
@@ -20,16 +21,16 @@ export default function Welcome() {
           </Profile>
           <Contact>
             <a href="https://www.linkedin.com/in/annikavennemann/">
-              <FaLinkedinIn size="1.5em" color="black" />
+              <FaLinkedinIn size="1.5em" color="#505050" />
             </a>
             <a href="https://www.xing.com/profile/Annika_Vennemann/cv">
-              <FaXing size="1.5em" color="black" />
+              <FaXing size="1.5em" color="#505050" />
             </a>
             <a href="https://github.com/annikavennemann">
-              <FaGithub size="1.5em" color="black" />
+              <FaGithub size="1.5em" color="#505050" />
             </a>
             <a href="mailto:annikavennemann@aol.com">
-              <BsFillEnvelopeFill size="1.5em" color="black" />
+              <BsFillEnvelopeFill size="1.5em" color="#505050" />
             </a>
           </Contact>
         </BusinessCard>
@@ -49,6 +50,7 @@ export default function Welcome() {
 
           <ButtonCV href="#">CV</ButtonCV>
           <ButtonMore href="#academicEducation">MORE</ButtonMore>
+        
         </IntroText>
       </Intro>
     </>
@@ -155,9 +157,9 @@ const IntroText = styled.div`
 
 const ButtonCV = styled.a`
     font-size: 0.8em;
-    font-weight: lighter;
+    font-weight: normal;
     text-decoration: none;
-    background-color: #3772FF;
+    background-color: var(--green-grey);
     color: #ffffff;
     padding: 6px 30px;
     border-radius: 20px;
@@ -167,11 +169,11 @@ const ButtonCV = styled.a`
 const ButtonMore = styled.a`
     margin-left: 2em;
     font-size: 0.8em;
-    font-weight: lighter;
+    font-weight: normal;
     text-decoration: none;
-    background-color: #8AA399;
+    background-color: var(--green-grey);
     color: #ffffff;
-    padding: 6px 30px;
+    padding: 6px 23px;
     border-radius: 20px;
     box-shadow: 8px 8px 16px #ededed, -8px -8px 16px #ffffff;
 `

@@ -1,10 +1,15 @@
 import styled from 'styled-components/macro'
+import { FiMenu } from "react-icons/fi";
 
 export default function Header() {
     return (
+
         <HeaderStyled>
-            <h1>HR meets TECH</h1>
-            <h2>Annika Vennemann</h2>
+            <HeaderHeadline>
+                <h1>HR meets TECH</h1>
+                <h2>Annika Vennemann</h2>
+            </HeaderHeadline>
+            <FiMenu size="2em" color="#505050"/>
         </HeaderStyled>
     )
 }
@@ -12,10 +17,22 @@ export default function Header() {
 const HeaderStyled = styled.header`
     position: fixed;
     top: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+
+    svg {
+        margin: 2em 2em 2em 0;
+    }
+`
+
+const HeaderHeadline = styled.div`
+    
     padding: 3em auto;
     display: flex;
     align-items: center;
-    background-color: white;
 
     h1 {
         margin: 0;

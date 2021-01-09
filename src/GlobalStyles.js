@@ -10,6 +10,7 @@ export default createGlobalStyle`
         padding:0;
         font-family: 'Lato', sans-serif;
         font-weight: 300;
+        color: #505050
     }
 
     main {
@@ -19,5 +20,6 @@ export default createGlobalStyle`
     :root {
         --light-creme: #F4ECE6;
         --dark-creme: #E6DACE;
+        --green-grey: #8AA399
     }
 `
