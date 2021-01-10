@@ -7,15 +7,17 @@ export default function Skills() {
         <h2>Skills</h2>
 
         <ul>
-          <h3>Personal Skills</h3>
-          <li>Positives Mindset</li>
-          <li>Motivation</li>
-          <li>Teamwork</li>
-          <li>Organisation</li>
-          <li>Belastbarkeit</li>
-          <li>Empathie</li>
-          <li>Beratungskompetenz</li>
-          <li>Projektmanagement</li>
+          <h3>Tech Stack</h3>
+          <li>React</li>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>node.js</li>
+          <li>PHP</li>
+          <li>Symfony</li>
+          <li>MySQL</li>
+          <li>Git Workflow</li>
+          <li>Adobe XD</li>
         </ul>
 
         <ul>
@@ -31,17 +33,15 @@ export default function Skills() {
         </ul>
 
         <ul>
-          <h3>Tech Stack</h3>
-          <li>React</li>
-          <li>JavaScript</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>node.js</li>
-          <li>PHP</li>
-          <li>Symfony</li>
-          <li>MySQL</li>
-          <li>Git Workflow</li>
-          <li>Adobe XD</li>
+          <h3>Personal Skills</h3>
+          <li>Positives Mindset</li>
+          <li>Motivation</li>
+          <li>Teamwork</li>
+          <li>Organisation</li>
+          <li>Belastbarkeit</li>
+          <li>Empathie</li>
+          <li>Beratungskompetenz</li>
+          <li>Projektmanagement</li>
         </ul>
 
         {/* <ul>
@@ -59,6 +59,7 @@ export default function Skills() {
 const Section = styled.section`
   display: flex;
   border: 2em solid #f4ece6;
+  border-top: 6em solid #f4ece6;
   background-color: white;
 
   h2 {

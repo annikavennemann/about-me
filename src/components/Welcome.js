@@ -4,6 +4,7 @@ import { FaLinkedinIn } from 'react-icons/fa'
 import { FaXing } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
 import { BsFillEnvelopeFill } from 'react-icons/bs'
+//import { NavLink } from 'react-router-dom'
 
 
 export default function Welcome() {
@@ -48,8 +49,8 @@ export default function Welcome() {
             sequi incidunt commodi.
           </p>
 
-          <ButtonCV href="#">CV</ButtonCV>
-          <ButtonMore href="#academicEducation">MORE</ButtonMore>
+          <ButtonCV href="#cv">CV</ButtonCV>
+          <ButtonMore href="#academicEducation">PROJECTS</ButtonMore>
         
         </IntroText>
       </Intro>
@@ -161,7 +162,7 @@ const ButtonCV = styled.a`
     text-decoration: none;
     background-color: var(--green-grey);
     color: #ffffff;
-    padding: 6px 30px;
+    padding: 6px 42px;
     border-radius: 20px;
     box-shadow: 8px 8px 16px #ededed, -8px -8px 16px #ffffff;
 `
@@ -173,7 +174,7 @@ const ButtonMore = styled.a`
     text-decoration: none;
     background-color: var(--green-grey);
     color: #ffffff;
-    padding: 6px 23px;
+    padding: 6px 20px;
     border-radius: 20px;
     box-shadow: 8px 8px 16px #ededed, -8px -8px 16px #ffffff;
 `
