@@ -43,6 +43,14 @@ export default function Skills() {
           <li>Git Workflow</li>
           <li>Adobe XD</li>
         </ul>
+
+        {/* <ul>
+            <h3>Languages</h3>
+            <li>Deutsch</li>
+            <li>Englisch</li>
+            <li>Spanisch</li>
+            <li>Französisch</li>
+        </ul> */}
       </Wrapper>
     </Section>
   )
