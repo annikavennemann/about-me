@@ -4,6 +4,7 @@ import CV from './components/CV'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Impressum from './components/Impressum'
+import Interests from './components/Interests'
 import Privacy from './components/Privacy'
 import Skills from './components/Skills'
 import Welcome from './components/Welcome'
@@ -26,7 +27,8 @@ function App() {
             <main>
               <Welcome />
               <Skills />
-              <CV className="cv"/>
+              <CV />
+              <Interests />
             </main>
           </Route>
 

@@ -3,7 +3,7 @@ import styled from 'styled-components/macro'
 export default function Publications() {
   return (
     <Wrapper>
-      <h3>PUBLICATIONS</h3>
+      <h3>Publications</h3>
       {/* <p>
         PROF. MOOS,G. / DR. MÜLLER, T. / VENNEMANN, A. et. al (2020): Ihr
         Wechsel an die Spitze: Die ersten 100 Tage im Job – wie der Einstieg
@@ -43,4 +43,8 @@ const Wrapper = styled.div`
     text-transform: uppercase;
     font-weight: normal;
   }
+
+  @media screen and (min-width: 600px) {
+      padding: 1em 2.5em;
+    }
 `
