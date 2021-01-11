@@ -1,4 +1,5 @@
 import styled from 'styled-components/macro'
+import Logo from '../images/logo-green.png'
 import { FiMenu } from 'react-icons/fi'
 import { NavLink } from 'react-router-dom'
 
@@ -8,7 +9,10 @@ export default function Header() {
       <HeaderHeadline>
         <NavLinkStyled to="/">
           <h1>HR meets TECH</h1>
-          <h2>Annika Vennemann</h2>
+          <img src={Logo} alt="" />
+          <h2>
+            Annika Vennemann
+          </h2>
         </NavLinkStyled>
       </HeaderHeadline>
       <FiMenu size="2em" color="#505050" />
@@ -26,6 +30,13 @@ const HeaderStyled = styled.header`
   background-color: white;
   z-index: 10;
 
+  img {
+    padding-left: 1em;
+    height: 2em;
+    width: auto;
+    border-left: 1px solid black;
+  }
+
   svg {
     margin: 2em 2em 2em 0;
   }
@@ -39,16 +50,15 @@ const HeaderHeadline = styled.div`
   h1 {
     margin: 0;
     padding: 1em;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: normal;
   }
 
   h2 {
     margin: 0;
     padding: 0.5em 1em;
-    border-left: 1px solid black;
     text-transform: uppercase;
-    font-size: 0.8em;
+    font-size: 0.6em;
     font-weight: 100;
   }
 `

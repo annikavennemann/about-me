@@ -112,6 +112,7 @@ const NavLinkStyled = styled(NavLink)`
   font-size: 0.7em;
   font-weight: lighter;
   color: #505050;
+  text-decoration: none;
 
   &:hover {
     color: var(--green-grey);
