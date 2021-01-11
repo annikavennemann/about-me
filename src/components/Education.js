@@ -2,7 +2,7 @@ import styled from 'styled-components/macro'
 
 export default function Education() {
   return (
-    <Wrapper>
+    <Wrapper id="academic-background">
       <h3>Academic background</h3>
       <h4>
         10/2015-12/2018 <br /> Ruhr-Universität Bochum
