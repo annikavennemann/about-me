@@ -64,4 +64,8 @@ const Wrapper = styled.div`
     text-transform: uppercase;
     font-weight: normal;
   }
+
+  @media screen and (min-width: 600px) {
+      padding: 1em 2.5em;
+    }
 `

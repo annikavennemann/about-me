@@ -20,6 +20,6 @@ export default createGlobalStyle`
     :root {
         --light-creme: #F4ECE6;
         --dark-creme: #E6DACE;
-        --green-grey: #8AA399
+        --green-grey: #8AA399;
     }
 `
