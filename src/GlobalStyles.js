@@ -14,7 +14,7 @@ export default createGlobalStyle`
     }
 
     main {
-        margin-top: 2em;
+        margin-top: 6em;
     }
 
     :root {

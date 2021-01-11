@@ -6,7 +6,6 @@ import { FaGithub } from 'react-icons/fa'
 import { BsFillEnvelopeFill } from 'react-icons/bs'
 //import { NavLink } from 'react-router-dom'
 
-
 export default function Welcome() {
   return (
     <>
@@ -41,17 +40,18 @@ export default function Welcome() {
           <h4>Who I am & what I do</h4>
 
           <p>
-            I'm a web developer based in Hamburg. I have an HR background and
-            love to implement great ideas for people & with people, for mobile
-            or web devices. Lorem ipsum, dolor sit amet consectetur adipisicing
-            elit. Mollitia ratione et repudiandae illum temporibus dicta vitae
-            nam, beatae quisquam odit sit adipisci qui ea amet eligendi, aliquid
-            sequi incidunt commodi.
+            HR meets Tech - dieser Satz hat mich seit Beginn meiner
+            Coding-Karriere begleitet. <br/><br/>
+            Durch meine Erfahrungen als HR-Beraterin ist es mir wichtig in
+            Development-Projekten das Persönliche aus dem HR mit der
+            analytischen, technischen Coding-Welt zu verbinden. Es begeistert
+            mich, Ideen gemeinsam mit Menschen und für Menschen umzusetzen. Die
+            daraus entstehenden Resultate sammle ich im Rahmen dieser Webseite
+            in einem kleinen Portfolio.
           </p>
 
           <ButtonCV href="#cv">CV</ButtonCV>
           <ButtonMore href="#academicEducation">PROJECTS</ButtonMore>
-        
         </IntroText>
       </Intro>
     </>
@@ -122,12 +122,12 @@ const IntroText = styled.div`
     text-transform: uppercase;
 
     @media only screen and (min-width: 600px) {
-        font-size: 3em;
+      font-size: 3em;
     }
 
     @media only screen and (min-width: 768px) {
-        font-size: 3.5em;
-        margin-bottom: 0.3em;
+      font-size: 3.5em;
+      margin-bottom: 0.3em;
     }
   }
 
@@ -136,10 +136,10 @@ const IntroText = styled.div`
     font-size: 1.5em;
     font-weight: lighter;
     text-transform: uppercase;
-    
+
     @media only screen and (min-width: 768px) {
-        font-size: 2em;
-        padding-bottom: 0.6em;
+      font-size: 2em;
+      padding-bottom: 0.6em;
     }
   }
 
@@ -147,34 +147,34 @@ const IntroText = styled.div`
     padding: 0 1.5em 2em 0;
 
     @media only screen and (min-width: 600px) {
-        font-size: 1.1em;
+      font-size: 1.1em;
     }
 
     @media only screen and (min-width: 768px) {
-        font-size: 1.3em;
+      font-size: 1.3em;
     }
   }
 `
 
 const ButtonCV = styled.a`
-    font-size: 0.8em;
-    font-weight: normal;
-    text-decoration: none;
-    background-color: var(--green-grey);
-    color: #ffffff;
-    padding: 6px 42px;
-    border-radius: 20px;
-    box-shadow: 8px 8px 16px #ededed, -8px -8px 16px #ffffff;
+  font-size: 0.8em;
+  font-weight: normal;
+  text-decoration: none;
+  background-color: var(--green-grey);
+  color: #ffffff;
+  padding: 6px 42px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 16px #ededed, -8px -8px 16px #ffffff;
 `
 
 const ButtonMore = styled.a`
-    margin-left: 2em;
-    font-size: 0.8em;
-    font-weight: normal;
-    text-decoration: none;
-    background-color: var(--green-grey);
-    color: #ffffff;
-    padding: 6px 20px;
-    border-radius: 20px;
-    box-shadow: 8px 8px 16px #ededed, -8px -8px 16px #ffffff;
+  margin-left: 2em;
+  font-size: 0.8em;
+  font-weight: normal;
+  text-decoration: none;
+  background-color: var(--green-grey);
+  color: #ffffff;
+  padding: 6px 20px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 16px #ededed, -8px -8px 16px #ffffff;
 `

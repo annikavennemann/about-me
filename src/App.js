@@ -67,8 +67,7 @@ const DropdownMenu = styled.nav`
     border: none;
 
     svg {
-      margin-top: 2em;
-      margin-right: 1em;
+      margin: 2em 1em 0.5em 0;
     }
   }
 `

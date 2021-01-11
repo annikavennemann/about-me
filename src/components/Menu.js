@@ -1,12 +1,10 @@
 import styled from 'styled-components/macro'
 import { IoCloseOutline } from 'react-icons/io5'
-// import { FiMenu } from 'react-icons/fi'
 
 export default function Menu() {
   return (
     <MenuDropdown>
       <IoCloseOutline size="2.3em" color="#505050" />
-      {/* <FiMenu size="2.3em" color="#505050" /> */}
       <Wrapper>
         <a href="#skills">Skills</a>
         <a href="#cv">Academic Background</a>
