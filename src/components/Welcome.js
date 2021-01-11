@@ -42,7 +42,7 @@ export default function Welcome() {
           <p>
             HR meets Tech - dieser Satz hat mich seit Beginn meiner
             Coding-Karriere begleitet. <br/><br/>
-            Durch meine Erfahrungen als HR-Beraterin ist es mir wichtig in
+            Durch meine Erfahrungen als HR-Beraterin ist es mir wichtig, in
             Development-Projekten das Persönliche aus dem HR mit der
             analytischen, technischen Coding-Welt zu verbinden. Es begeistert
             mich, Ideen gemeinsam mit Menschen und für Menschen umzusetzen. Die

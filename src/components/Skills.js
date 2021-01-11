@@ -29,7 +29,7 @@ export default function Skills() {
           <li>Mitarbeiter:innenbefragungen</li>
           <li>Assessment Center</li>
           <li>Wissensmanagement</li>
-          <li>Verentzung</li>
+          <li>Vernetzung</li>
         </ul>
 
         <ul>
