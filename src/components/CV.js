@@ -32,11 +32,11 @@ export default function CV() {
           <ContentEhrenamt>
             <h3>Jun 2020 - heute</h3>
             <p>EHRENAMT: OHHH! FOUNDATION, HAMBURG</p>
-            <p>PEOPLE MANAGERIN & EMPLOYER BRANDING EXPERT</p>
+            <p>EMPLOYER BRANDING EXPERT</p>
             <ul>
               <li>Aufbau einer neuen Employer Brand</li>
               <li>
-                Begleitung eines oragnisationalen Transformationsprozessen
+                Begleitung eines organisationalen Transformationsprozesses
               </li>
               <li>
                 Unterstützung der Unit People & Culture zur Stärkung der
@@ -112,7 +112,7 @@ export default function CV() {
             <p>STUDENTISCHE HILFSKRAFT</p>
             <ul>
               <li>
-                Mitarbeit in den Projekten "Infromations- und
+                Mitarbeit in den Projekten "Informations- und
                 Qualifikationszentrum für Kommunen in Nordrhein-Westfalen" und
                 "Projekt Präventive Familienpolitik - Ressourcenstärkung für
                 Familien":
