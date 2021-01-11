@@ -2,7 +2,7 @@ import styled from 'styled-components/macro'
 
 export default function Skills() {
   return (
-    <Section>
+    <Section id="skills">
       <Wrapper>
         <h2>Skills</h2>
 
@@ -64,8 +64,17 @@ const Section = styled.section`
 
   h2 {
     margin: 0;
+    margin-right: 3em;
     text-transform: uppercase;
     font-weight: normal;
+
+    @media only screen and (min-width: 400px) {
+      margin-right: 10em;
+    }
+
+    @media only screen and (min-width: 600px) {
+      margin-right: 0;
+    }
   }
 `
 

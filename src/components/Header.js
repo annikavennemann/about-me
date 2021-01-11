@@ -1,21 +1,23 @@
 import styled from 'styled-components/macro'
 import Logo from '../images/logo-green.png'
-import { FiMenu } from 'react-icons/fi'
+// import { FiMenu } from 'react-icons/fi'
 import { NavLink } from 'react-router-dom'
+// import Menu from './Menu'
+// import { useState } from 'react'
+// import ToggleButton from './ToggleButton'
 
 export default function Header() {
+  // const [showMenu, setShowMenu] = useState(false)
+
   return (
     <HeaderStyled>
       <HeaderHeadline>
         <NavLinkStyled to="/">
           <h1>HR meets TECH</h1>
           <img src={Logo} alt="" />
-          <h2>
-            Annika Vennemann
-          </h2>
+          <h2>Annika Vennemann</h2>
         </NavLinkStyled>
       </HeaderHeadline>
-      <FiMenu size="2em" color="#505050" />
     </HeaderStyled>
   )
 }
@@ -64,11 +66,11 @@ const HeaderHeadline = styled.div`
 `
 
 const NavLinkStyled = styled(NavLink)`
+  width: 270px;
   margin: 0;
-  padding: 1em;
   font-weight: normal;
   text-decoration: none;
-  padding: 2.5em auto;
+  padding: 1.5em auto;
   display: flex;
   align-items: center;
 
@@ -85,6 +87,18 @@ const NavLinkStyled = styled(NavLink)`
 
     &:hover {
       color: var(--green-grey);
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    width: 500px;
+
+    h1 {
+      font-size: 1.5em;
+    }
+
+    h2 {
+      font-size: 1.2em;
     }
   }
 `

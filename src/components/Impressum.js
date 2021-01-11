@@ -2,7 +2,7 @@ import styled from 'styled-components/macro'
 
 export default function Impressum() {
   return (
-    <Wrapper>
+    <Wrapper id="impressum">
       <h2>Impressum</h2>
       <h3>Angaben gemäß §5 TMG</h3>
       <p>Annika Vennemann
