@@ -4,7 +4,7 @@ import { FaLinkedinIn } from 'react-icons/fa'
 import { FaXing } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
 import { BsFillEnvelopeFill } from 'react-icons/bs'
-//import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 export default function Welcome() {
   return (
@@ -51,7 +51,11 @@ export default function Welcome() {
           </p>
 
           <ButtonCV href="#cv">CV</ButtonCV>
-          <ButtonMore href="#academicEducation">PROJECTS</ButtonMore>
+          {/* <ButtonMore href="#portfolio">PORTFOLIO</ButtonMore> */}
+
+          <NavLinkStyled to="/portfolio">
+              <span>PORTFOLIO</span>
+            </NavLinkStyled>
         </IntroText>
       </Intro>
     </>
@@ -164,17 +168,31 @@ const ButtonCV = styled.a`
   color: #ffffff;
   padding: 6px 42px;
   border-radius: 20px;
+  border: 1px solid var(--green-grey);
   box-shadow: 8px 8px 16px #ededed, -8px -8px 16px #ffffff;
+
+  &:hover {
+       color: var(--green-grey);
+       background-color: white;
+       border: 1px solid var(--green-grey);
+   }
 `
 
-const ButtonMore = styled.a`
-  margin-left: 2em;
-  font-size: 0.8em;
-  font-weight: normal;
-  text-decoration: none;
-  background-color: var(--green-grey);
-  color: #ffffff;
-  padding: 6px 20px;
-  border-radius: 20px;
-  box-shadow: 8px 8px 16px #ededed, -8px -8px 16px #ffffff;
+const NavLinkStyled = styled(NavLink)`
+   margin-left: 2em;
+   font-size: 0.8em;
+   font-weight: normal;
+   text-decoration: none;
+   background-color: var(--green-grey);
+   color: #ffffff;
+   padding: 6px 20px;
+   border-radius: 20px;
+   border: 1px solid var(--green-grey);
+   box-shadow: 8px 8px 16px #ededed, -8px -8px 16px #ffffff;
+
+   &:hover {
+       color: var(--green-grey);
+       background-color: white;
+       border: 1px solid var(--green-grey);
+   }
 `

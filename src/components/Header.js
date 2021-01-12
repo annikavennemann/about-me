@@ -36,7 +36,7 @@ const HeaderStyled = styled.header`
     padding-left: 1em;
     height: 2em;
     width: auto;
-    border-left: 1px solid black;
+    border-left: 0.5px solid #505050;
   }
 
   svg {
