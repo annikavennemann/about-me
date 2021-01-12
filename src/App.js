@@ -12,6 +12,7 @@ import { FiMenu } from 'react-icons/fi'
 import Menu from './components/Menu'
 import ToggleButton from './components/ToggleButton'
 import { useState } from 'react'
+import Portfolio from './components/Portfolio'
 
 function App() {
   const [showMenu, setShowMenu] = useState(false)
@@ -35,6 +36,10 @@ function App() {
 
         <Route path="/datenschutz">
           <Privacy />
+        </Route>
+
+        <Route path="/portfolio">
+          <Portfolio />
         </Route>
 
         <Route path="/">
