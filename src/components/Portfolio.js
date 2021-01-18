@@ -4,12 +4,13 @@ import Ohhh from '../images/ohhh.png'
 import { DiReact } from 'react-icons/di'
 import { DiPhp } from 'react-icons/di'
 import { DiSymfonyBadge } from 'react-icons/di'
-import { SiReactrouter } from "react-icons/si";
-import { SiStyledComponents } from "react-icons/si";
+import { SiReactrouter } from 'react-icons/si'
+import { SiStyledComponents } from 'react-icons/si'
 import { DiDoctrine } from 'react-icons/di'
 import { DiMysql } from 'react-icons/di'
 import { DiNpm } from 'react-icons/di'
-import { SiAdobexd } from "react-icons/si";
+import { SiAdobexd } from 'react-icons/si'
+import MGWohnwagen from '../videos/MG-Wohnwagen.mov'
 
 export default function Portfolio() {
   return (
@@ -40,9 +41,11 @@ export default function Portfolio() {
             standortübergreifend eingesetzt werden.
             <br />
             <br />
-
-            Repository:<br />
-            <a href="https://github.com/annikavennemann/capstone-project">https://github.com/annikavennemann/capstone-project</a>
+            Repository:
+            <br />
+            <a href="https://github.com/annikavennemann/capstone-project">
+              https://github.com/annikavennemann/capstone-project
+            </a>
           </p>
 
           <h4>Tech Stack</h4>
@@ -58,40 +61,67 @@ export default function Portfolio() {
               <li>
                 <SiReactrouter size="60px" color="#8AA399" />
               </li>
-              <li>&nbsp; React<br/>router</li>
+              <li>
+                &nbsp; React
+                <br />
+                router
+              </li>
             </ul>
             <ul>
               <li>
                 <SiStyledComponents size="60px" color="#8AA399" />
               </li>
-              <li>&nbsp; &nbsp; &nbsp; Styled<br/>components</li>
+              <li>
+                &nbsp; &nbsp; &nbsp; Styled
+                <br />
+                components
+              </li>
             </ul>
             <ul>
-              <li><DiPhp size="60px" color="#8AA399" /></li>
+              <li>
+                <DiPhp size="60px" color="#8AA399" />
+              </li>
               <li>Php</li>
             </ul>
             <ul>
-              <li><DiSymfonyBadge size="60px" color="#8AA399" /></li>
+              <li>
+                <DiSymfonyBadge size="60px" color="#8AA399" />
+              </li>
               <li>Symfony</li>
             </ul>
             <ul>
-              <li><DiDoctrine size="60px" color="#8AA399" /></li>
+              <li>
+                <DiDoctrine size="60px" color="#8AA399" />
+              </li>
               <li>Doctrine</li>
             </ul>
             <ul>
-              <li><DiMysql size="60px" color="#8AA399" /></li>
+              <li>
+                <DiMysql size="60px" color="#8AA399" />
+              </li>
               <li>MySQL</li>
             </ul>
             <ul>
-              <li><DiNpm size="60px" color="#8AA399" /></li>
+              <li>
+                <DiNpm size="60px" color="#8AA399" />
+              </li>
               <li>NPM</li>
             </ul>
             <ul>
-              <li><SiAdobexd size="60px" color="#8AA399" /></li>
+              <li>
+                <SiAdobexd size="60px" color="#8AA399" />
+              </li>
               <li>Adobe xd</li>
             </ul>
           </Stack>
         </AboutTheApp>
+
+        <h3>MG-Wohnwagen</h3>
+        <h4>Unterwegs zuhause</h4>
+
+        <Video width="105%" controls Autoplay="autoplay">
+          <source src={MGWohnwagen} type="video/mp4" />
+        </Video>
       </Wrapper>
     </>
   )
@@ -126,8 +156,8 @@ const Wrapper = styled.main`
   }
 
   a {
-      font-size: 0.8em;
-      color: #8AA399;
+    font-size: 0.8em;
+    color: #8aa399;
   }
 `
 
@@ -151,6 +181,9 @@ const Stack = styled.div`
   list-style: none;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-bottom: 2em;
+  margin-bottom: 4em;
+  border-bottom: 1px #8aa399 solid;
 
   ul {
     padding: 0 1em;
@@ -177,4 +210,8 @@ const Stack = styled.div`
       height: 80px;
     }
   }
+`
+
+const Video = styled.video`
+  margin-left: auto;
 `
