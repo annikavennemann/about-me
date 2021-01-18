@@ -1,13 +1,8 @@
 import styled from 'styled-components/macro'
 import Logo from '../images/logo-green.png'
-// import { FiMenu } from 'react-icons/fi'
 import { NavLink } from 'react-router-dom'
-// import Menu from './Menu'
-// import { useState } from 'react'
-// import ToggleButton from './ToggleButton'
 
 export default function Header() {
-  // const [showMenu, setShowMenu] = useState(false)
 
   return (
     <HeaderStyled>

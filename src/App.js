@@ -25,6 +25,8 @@ function App() {
           hideMenu={<FiMenu size="2.3em" color="#505050" />}
           showMenu={<Menu />}
           isActive={showMenu}
+          // onMouseEnter={() => setShowMenu(!showMenu)}
+          // onMouseLeave={() => setShowMenu(false)}
           onClick={() => setShowMenu(!showMenu)}
         />
       </DropdownMenu>
